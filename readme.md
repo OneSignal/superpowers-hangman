@@ -9,6 +9,8 @@ with a playable (if a bit clunky/ugly) hangman game!
 
 ![Screen Shot 2021-08-09 at 12 38 47 PM](https://user-images.githubusercontent.com/5257160/128764236-279bcc7e-e0f1-4257-ad70-2992b7538130.png)
 
+Play it [here]("https://onesignal.github.io/superpowers-hangman")!
+
 
 # How to learn from this
 
@@ -33,7 +35,7 @@ more interesting than just some ugly text, or anything else!
 
 If you want to learn more about the behind-the-scenes part there is plenty of
 work that could be done in the 'project hygene' department like adding linters,
-switching to typescript, or creating a deploy script.
+or switching to typescript.
 
 
 # Set up
@@ -51,8 +53,19 @@ After the initial set up you can start the build server with this command:
 `yarn start`
 
 
-# How to make a 'production' build
+# How to make a build
 
 If you want to make a standalone build you can run the server locally with
 the instructions above and then host the resulting `dist` folder. This will have
 everything you need for a standalone static build you can host anywhere.
+
+
+# How to update the hosted version
+
+This is hosted on github pages - in order to update the hosted version run:
+
+`yarn prod`
+
+This will make a production build and replace the hosting folder ('docs')
+contents with the new build contents. Commit and push and github will do the
+rest automatically.

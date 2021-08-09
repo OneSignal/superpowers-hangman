@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn run parcel index.html",
-    "makewordlist": "node makewordlist.js"
+    "makewordlist": "node makewordlist.js",
+    "prod": "(rm build/* || true) && yarn run parcel build --no-optimize --public-url . --dist-dir build index.html && (rm docs/* || true) && cp -r build/* docs && echo '\n\nreview and commit these changes then push to main\n\n'"
   },
   "devDependencies": {
     "parcel": "^2.0.0-rc.0"
