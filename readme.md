@@ -7,6 +7,8 @@ their guesses. Overall it was a good showcase for the constant decisions and
 choices going on when taking a project from idea to execution and we ended up
 with a playable (if a bit clunky/ugly) hangman game!
 
+![Screen Shot 2021-08-09 at 12 38 47 PM](https://user-images.githubusercontent.com/5257160/128764236-279bcc7e-e0f1-4257-ad70-2992b7538130.png)
+
 
 # How to learn from this
 
